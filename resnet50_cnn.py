@@ -84,8 +84,8 @@ history = model.fit(
 
 #Evaluation
 loss, accuracy = model.evaluate(val_ds)
-print(f"\n✅ Validation Accuracy: {accuracy * 100:.2f}%")
-print(f"✅ Validation Loss: {loss:.4f}")
+print(f"\n Validation Accuracy: {accuracy * 100:.2f}%")
+print(f" Validation Loss: {loss:.4f}")
 
 model.save("resnet50_fundus_final_model.h5")
 
